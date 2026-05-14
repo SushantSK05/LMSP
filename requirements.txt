@@ -1,4 +1,0 @@
-Django==6.0.5
-python-dotenv==1.2.2
-mysqlclient==2.2.8
-openai==2.36.0

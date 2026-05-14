@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lms4"
+version = "0.1.0"
+description = "Learning Management System"
+dependencies = [
+    "Django==6.0.5",
+    "python-dotenv==1.2.2",
+    "mysqlclient==2.2.8",
+    "openai==2.36.0",
+]
+
+[tool.setuptools]
+packages = ["core", "courses"]
